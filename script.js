@@ -19,7 +19,7 @@ function convert() {
   // текущие курсы валют
   let UR = 85;
   let RU = 0.012;
-  let UE = 0.092;
+  let UE = 0.92;
   let EU = 1.09;
   let RE = 0.011;
   let ER = 91;
