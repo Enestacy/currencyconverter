@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 100px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 63px;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+.card {
+  background-color: Solid white;
+  box-shadow: 0px 2px 20px rgba(39, 43, 64, 0.16);
+  border-radius: 30px;
+  padding: 65px 65px 34px 58px;
+  max-width: 892px;
+}
+
+.sides {
+  display: flex;
+}
+
+.side2 {
+  margin-left: auto;
+}
+
+label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.selection {
+  display: block;
+  border: 2px solid #3a69c2;
+  border-radius: 8px;
+  min-width: 117px;
+  padding: 3px 10px 3px 15px;
+  margin-top: 20px;
+  /* appearance: none; */
+  color: #3a69c2;
+  font-weight: 700;
+}
+
+.inputs {
+  display: block;
+  margin-top: 30px;
+  border: 1px solid #8d8d8d;
+  box-sizing: border-box;
+  border-radius: 10px;
+  min-height: 127px;
+  max-width: 300px;
+  padding-left: 17px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  margin-bottom: 60px;
+}
+
+.btnflex {
+  display: flex;
+  justify-content: center;
+}
+
+#BTN {
+  background: #3a69c2;
+  border: 2px solid #3a69c2;
+  box-shadow: 0px 2px 40px rgba(143, 181, 255, 0.72);
+  border-radius: 40px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 23px;
+  padding: 15px 25px;
+}
+
+#BTN:hover {
+  background: white;
+  border: 2px solid #3a69c2;
+  color: #3a69c2;
+  box-shadow: 0px 2px 20px rgba(143, 180, 255, 0.39);
+}
+
+.inputs:focus {
+  border: 1px solid #3a69c2;
+}

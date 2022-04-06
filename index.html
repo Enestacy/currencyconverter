@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="nullstyle.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="content">
+    <h1>Простой конвертер валют</h1>
+    <div class="card">
+      <div class="sides">
+        <div class="side1">
+          <label>У меня есть</label>
+          <select name="valuta" id="VAL" class="selection">
+            <option value="1">USD</option>
+            <option value="2">RUB</option>
+            <option value="3">EUR</option>
+          </select>
+          <input type="text" id="amount" class="inputs">
+        </div>
+        <div class="side2">
+          <label>Я получу</label>
+          <select name="valuta" id="VAL2" class="selection">
+            <option value="1">USD</option>
+            <option value="2">RUB</option>
+            <option value="3">EUR</option>
+          </select>
+          <input type="text" id="converted_amount" class="inputs">
+        </div>
+      </div>
+      <div class="btnflex">
+        <button type="button" id="BTN" value="0">Конвертировать</button>
+      </div>
+    </div>  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
